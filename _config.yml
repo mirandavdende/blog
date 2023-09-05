@@ -4,17 +4,17 @@ plugins:
   - jekyll-paginate
 
 # Site settings
-title: "Miranda's blog"
+title: "Outvontuur"
 description: > # this means to ignore newlines until "email:"
-  Miranda's prachtige website met mooie dingen
+  Miranda's blog over de wondere wijde wereld
 
 email: miranda.vdende@gmail.com
 #blog logo
-logo: "/assets/images/df_logo.jpg"
+logo: "/assets/images/logo.png"
 float_logo: true # true, false (default)
 
 # blog cover
-cover: "/assets/images/cA4aKEIPQrerBnp1yGHv_IMG_9534-3-2.jpg"
+cover: "/assets/images/welcome.jpg"
 
 name: 'Miranda van der Ende'
 author: 'Miranda van der Ende'
