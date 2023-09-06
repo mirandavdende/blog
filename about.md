@@ -1,9 +1,9 @@
 ---
 layout: page
-title: About
+title: Over Outvontuur
 permalink: /about/
 ---
 
-Hier een mooi verhaaltje over Miranda
+Hier een mooi verhaaltje over Miranda en het blog
 
 

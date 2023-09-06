@@ -20,7 +20,7 @@
             <div class="cf post-meta-text">
               <div class="author-image" style="background-image: url({{ site.author_image | prepend: site.baseurl }})">Blog Logo</div>
               <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
-              on
+              op
               <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time>
             </div>
             <div style="text-align:center">
@@ -46,7 +46,7 @@
         {% endif %}
         <section class="post-content">
           <div class="post-reading">
-            <span class="post-reading-time"></span> read
+            <span class="post-reading-time"></span> om te lezen
           </div>
           <a name="topofpage"></a>
           {{content}}
@@ -65,23 +65,20 @@
         </footer>
         <div class="bottom-teaser cf">
           <div class="isLeft">
-            <h5 class="index-headline featured"><span>Written by</span></h5>
+            <h5 class="index-headline featured"><span>Geschreven door</span></h5>
             <section class="author">
               <div class="author-image" style="background-image: url({{site.author_image | prepend: site.baseurl}})">Blog Logo</div>
               <h4>{{ site.author }}</h4>
               <p class="bio">{{author.bio}}</p>
               <hr>
-              <p class="published">Published <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
+              <p class="published">Gepubliceerd op <time datetime="{{ page.date | date: "%F %R" }}">{{ page.date | date_to_string }}</time></p>
             </section>
           </div>
           <div class="isRight">
-            <h5 class="index-headline featured"><span>Supported by</span></h5>
+            <h5 class="index-headline featured"><span>Ondersteund door</span></h5>
             <footer class="site-footer">
-              <section class="poweredby">Proudly published with <a href="http://jekyllrb.com"> Jekyll</a></section>
-              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> You should subscribe to my feed.</span></a>
-              <div class="inner">
-                <section class="copyright">All content copyright <a href="{{blog.url}}/">{{site.author}}</a> &copy; {{ site.time | date: '%Y' }}<br>All rights reserved.</section>
-              </div>
+              <section class="poweredby">Gepubliceerd met <a href="http://jekyllrb.com"> Jekyll</a> op <a href="https://pages.github.com/">Github Pages</a></section>
+              <a class="subscribe" href="{{ "/feed.xml" | prepend: site.baseurl }}"> <span class="tooltip"> <i class="fa fa-rss"></i> Abonneer je op mijn RSS feed</span></a>
             </footer>
           </div>
         </div>
@@ -109,7 +106,7 @@
       <div class="inner">
         <h1 class="blog-title">{{ site.title }}</h1>
         <h2 class="blog-description">{{ site.description }}</h2>
-        <a href={{ "/" | prepend: site.baseurl }} class="btn">Back to Overview</a>
+        <a href={{ "/" | prepend: site.baseurl }} class="btn">Terug naar overzicht</a>
       </div>
     </div>
     {% include javascripts.html %}
