@@ -12,6 +12,7 @@
     
       var height = $('.article-image').height();
       $('.post-content').css('padding-top', height + 'px');
+      height ||= $('.teaserimage').height();
 
       $window.on('scroll', function() {
         var top = $window.scrollTop();
