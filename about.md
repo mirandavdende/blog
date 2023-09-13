@@ -13,5 +13,5 @@ Zelf ben ik een echte kampeer fanaat. Ik ben de trotse eigenaar van de Volkswage
 
 Ik doe hard mijn best om mijn leven in te richten hoe ik het wil, en niet wat van mij verwacht word. Zo heb ik bijvoorbeeld al regelmatig remote gewerkt vanuit de BIOD caravan of ga ik voor langere tijd naar Frankrijk om vanuit daar remote te werken. Ook de mensen direct om mij heen probeer ik te inspireren om meer naar buiten te gaan. In december 2017 zijn we met een aantal vrienden in begonnen met minimaal elke 2 maanden kamperen, er word dus gekampeerd in elk seizoen. We komen hierdoor op de mooiste plekken in Nerderland!
 
-Mocht je nog meer over mij of over Outvontuur willen weten dan kun je altijd contact met mij opnemen. Daarnaast nodig ik je uit om mijn persoonlijke account op instagram te volgen wanneer je een kijkje achter de schermen wilt: @miranda_vdende.
+Mocht je nog meer over mij of over Outvontuur willen weten dan kun je altijd [contact](https://mirandavdende.github.io/blog/contact/) met mij opnemen. Daarnaast nodig ik je uit om mijn persoonlijke account op instagram te volgen wanneer je een kijkje achter de schermen wilt: @miranda_vdende.
 
