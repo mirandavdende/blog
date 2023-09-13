@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Over_Outvontuur
+title: Over Outvontuur
 permalink: /about/
 image: /assets/images/welcome.jpg
 ---

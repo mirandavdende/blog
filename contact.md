@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
-image: /assets/images/welcome.jpg
+image: /assets/article_images/sunset.jpg
 ---
 
 Dat je op deze pagina bent beland betekent dat je waarschijnlijk contact met mij wilt opnemen, dat vind ik gezellig! Mocht je mij direct willen mailen dan kan dat op info[at]outvontuur.nl. Ik antwoord doorgaans binnen een week op je bericht.
