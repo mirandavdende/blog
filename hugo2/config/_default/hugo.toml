@@ -19,3 +19,6 @@ responsive_image_widths = [480, 960, 1440, 1920]
 [taxonomies]
 tag = "tags"
 category = "categories"
+
+[params]
+favicon = "favicon.ico"
