@@ -1,0 +1,99 @@
+/*
+ * Outvontuur palette
+ *
+ * This file is loaded after Ananke's own styles. Keeping it in the site assets
+ * directory means theme upgrades remain independent from these customisations.
+ */
+
+:root {
+  --outvontuur-light-green: #606c38;
+  --outvontuur-dark-green: #283618;
+  --outvontuur-soft-yellow: #fefae0;
+  --outvontuur-light-brown: #dda15e;
+  --outvontuur-dark-brown: #bc6c25;
+  --outvontuur-copy: #303030;
+}
+
+/* Force footer at the bottom of the browser */
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  & > main {
+    background-color: var(--outvontuur-soft-yellow);
+    flex: auto;
+  }
+}
+
+/* Front-page specific styling */
+body.outvontuur-home {
+  & > header {
+    background-color: var(--outvontuur-dark-green);
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size: contain !important;
+    min-height: clamp(10rem, 30rem, 40vh);
+
+    /* Disable darkening overlay */
+    & > div {
+      background-color: transparent !important;
+    }
+
+    /* Hide redundant title */
+    & > div > div > h1 {
+      display: none;
+    }
+  }
+}
+
+/* Generic changes to colours on the page */
+body {
+  & > header:not([style]) > div,
+  & > footer {
+    background-color: var(--outvontuur-dark-green) !important;
+  }
+
+  & > header {
+    border-bottom: 6px solid var(--outvontuur-light-brown);
+  }
+
+  & > footer {
+    border-top: 6px solid var(--outvontuur-light-brown);
+  }
+
+  article {
+    color: var(--outvontuur-copy) !important;
+
+    & a {
+      color: var(--outvontuur-dark-green) !important;
+
+      &:hover {
+        color: var(--outvontuur-light-green) !important;
+      }
+
+      /* The pill buttons at the bottom of articles */
+      &.br-pill {
+        border-color: var(--outvontuur-dark-green);
+        color: var(--outvontuur-dark-green) !important;
+
+        &:hover {
+          background-color: var(--outvontuur-light-green);
+          color: var(--outvontuur-soft-yellow) !important;
+        }
+      }
+
+      /* Ananke's “read more” buttons. */
+      &.ba.b--moon-gray.bg-light-gray {
+        border-color: var(--outvontuur-dark-brown) !important;
+        background-color: var(--outvontuur-dark-brown) !important;
+        color: var(--outvontuur-soft-yellow) !important;
+        padding: 0.5rem 1rem;
+      }
+
+      &.ba.b--moon-gray.bg-light-gray:hover {
+        background-color: var(--outvontuur-light-brown) !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+[readingTime]
+one = "{{ .Count }} minuut leestijd"
+other = "{{ .Count }} minuten leestijd"
+
+[wordCount]
+one = "{{ .Count }} woord"
+other = "{{ .Count }} woorden"

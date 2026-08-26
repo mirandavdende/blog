@@ -1,0 +1,8 @@
+mainSections = ["posts", "reisverslagen"]
+read_more_copy = "Lees verder..."
+show_reading_time = true
+date_format = "2 January 2006"
+
+[ananke]
+show_recent_posts = true
+custom_css = ["palette.css"]

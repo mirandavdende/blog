@@ -1,0 +1,21 @@
+baseURL = "https://example.com/"
+locale = "nl-nl"
+defaultContentLanguage = "nl"
+title = "Outvontuur"
+enableRobotsTXT = true
+
+# Favour photographic quality over the default, faster image-processing settings.
+[imaging]
+resampleFilter = "lanczos"
+
+[imaging.jpeg]
+quality = 95
+
+[params.ananke]
+# Header images are full-width CSS backgrounds, so avoid the theme's 480px
+# default: it looks soft on modern and high-density displays.
+responsive_image_widths = [480, 960, 1440, 1920]
+
+[taxonomies]
+tag = "tags"
+category = "categories"
